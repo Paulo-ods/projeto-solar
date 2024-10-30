@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.visible {
+    opacity: 1;
+}
+
+#thankYouMessage {
+    display: none;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    z-index: 1000;
+}
+
+img#logo {
+    max-height: 70px;
+}
